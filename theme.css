@@ -1,4 +1,5 @@
 body{
+    font-family: Lora;
     background: rgb(217, 254, 255);
     background: linear-gradient(180deg, rgba(217, 254, 255, 1) 0%, rgba(242, 242, 254, 1) 1000%);
 }
@@ -16,6 +17,8 @@ h1{
 
 .title h2 {
     color: #7b4ae2;
+    font-size: 30px;
+    
 }
 
 .navigation {
@@ -26,4 +29,9 @@ h1{
 .navigation-item a {
     text-decoration: none;
     color: #c1a2ff;
+}
+@font-face {
+    font-family: "Lora";
+    src: url("./fonts/Lora-Regular.ttf");
+    
 }
