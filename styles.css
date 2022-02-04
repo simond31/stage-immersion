@@ -1,0 +1,156 @@
+
+
+h1 {
+    color: #FF0000;
+}
+
+.vert {
+    color: green;
+}
+
+.item {
+    padding-right: 5px;
+
+    display: inline-block;
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #FF0000;
+}
+
+.bloc {
+    height: 30px;
+    text-align: center;
+}
+
+.id {
+    color: black;
+    cursor: alias;
+    text-decoration: none;
+}
+
+.I {
+    color: #CECECE
+}
+
+body {
+
+    display: block;
+}
+
+h6 {
+    font-size: 20px
+}
+
+p {
+    font-size: 20px;
+}
+
+/* h8{
+    <element <class>="h8"}
+    color> <id>="#FF9186"
+<border-radius>:8px
+} */
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.block-item {
+    height: 40px;
+    width: 50px;
+    justify-content: space-between
+}
+
+h2 {
+    font-size: 30px
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.title h2 {
+    color: #7b4ae2;
+}
+
+.navigation {
+    display: flex;
+    column-gap: 24px;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color: #c1a2ff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 32px;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    background-color: #ff8d87;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff6860;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Lora;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 20%
+}
+
+
+body {
+    font-family: Lora;
+   background: rgb(217, 254, 255);
+    background: linear-gradient(180deg, rgba(217, 254, 255, 1) 0%, rgba(242, 242, 254, 1) 100%);
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("./fonts/Lora-Regular.ttf");
+    
+}
+
+.footer{
+    font-family: Lora;
+    justify-content: space-between;
+    height: 100vh;
+}
+
